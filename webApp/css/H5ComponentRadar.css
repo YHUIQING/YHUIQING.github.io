@@ -1,0 +1,17 @@
+/*基本样式*/
+.h5_component_Radar{
+	
+	
+}
+.h5_component_Radar canvas{
+	position: absolute;
+	left: 0;
+	top: 0; /*用canvas做动画，会进行分层，要用到z-index*/
+	width: 100%;
+	height: 100%;
+	/*background-color: #eee;*/
+}
+.h5_component_Radar .text{
+	position: absolute;
+	font-size: 12px;
+}

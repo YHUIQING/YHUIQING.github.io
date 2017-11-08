@@ -1,0 +1,24 @@
+/*基本样式*/
+.h5_component_Point{
+	
+	
+}
+.h5_component_Point .point{
+	display: block;
+	background-color: #ccc;
+	position: absolute;
+	border-radius: 50%;
+}
+.h5_component_Point .name{
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	margin-top: -15px;
+	position: absolute;
+	top: 50%;
+	font-size: 18px;
+	color: #ccc;
+}
+.h5_component_Point .per{
+font-size: 0.5em;	
+}

@@ -1,0 +1,59 @@
+/*基本样式*/
+.h5_component_Bar{
+	
+	
+}
+.h5_component_Bar .line{
+	height: 15px;
+	font-size: 12x;
+	line-height: 15px;
+	margin-bottom: 15px;
+}
+.h5_component_Bar .name{
+	color: #000;
+	text-align: center;
+	float: left;
+	width: 60px;
+	font-size: 12px;
+}
+.h5_component_Bar .rate{
+	height: 15px;
+	margin-left: 5px;
+	float: left;
+	position: relative;
+}
+.h5_component_Bar .rate .bg{
+	height: 100%;
+	width: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 5px;
+}
+.h5_component_Bar .per{
+	width: 20px;
+	float: left;
+	margin-left: 5px;
+	opacity: 0;
+}
+.h5_component_Bar_load .rate .bg{
+	-webkit-transition: all 1s  .5s;
+	-moz-transition: all 1s .5s;
+	-ms-transition: all 1s .5s;
+	transition: all 1s .5s;
+	width: 100%; 
+}
+.h5_component_Bar_load  .per{
+	-webkit-transition: all 1s 1.5s;
+	-moz-transition: all 1s 1.5s;
+	-ms-transition: all 1s 1.5s;
+	-o-transition: all 1s 1.5s;
+	transition: all 1s 1.5s;
+	opacity: 1;
+}
+.h5_component_Bar_leave .rate .bg{
+	width: 0; 
+}
+.h5_component_Bar_leave  .per{
+	opacity: 0;
+}
